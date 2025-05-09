@@ -1,0 +1,37 @@
+# Binaries
+main
+*.exe
+*.out
+*.test
+
+# Logs and debug files
+*.log
+*.trace
+*.prof
+*.pprof
+*.svg
+
+# Docker
+.env
+docker-compose.override.yml
+.dockerignore
+
+# Go
+*.sum
+/vendor/
+/bin/
+/build/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets and Configuration
+.env
+config.yaml
+secrets.json
+
+# Swagger Docs (if auto-generated)
+docs/
